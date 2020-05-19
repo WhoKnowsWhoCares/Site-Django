@@ -11,3 +11,5 @@ python manage.py migrate
 python manage.py sqlmigrate main 0001
 # Использование питона для работы с объектами проекта
 python manage.py shell
+# Создание админской учетки
+python manage.py createsuperuser
