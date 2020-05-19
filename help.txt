@@ -1,0 +1,13 @@
+# При использовании терминала в VSCode настроить командную строку пользователя на cmd чтобы в терминале работало conda env envname
+Настроить окружение pip install django
+В терминале django-admin startproject prjname
+python manage.py startapp main
+# Запуск приложения
+python manage.py runserver
+# Создать снимок классов для сохранения в базу
+python manage.py makemigrations
+python manage.py migrate
+# Для восстановления одной из миграций указать App, version
+python manage.py sqlmigrate main 0001
+# Использование питона для работы с объектами проекта
+python manage.py shell
