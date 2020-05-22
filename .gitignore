@@ -1,2 +1,7 @@
 site-django_wspc.code-workspace
 .vscode/settings.json
+parallax-template/
+mysite/main/__pycache__/
+mysite/main/migrations/
+mysite/mysite/__pycache__/
+db.sqlite3
