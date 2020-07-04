@@ -13,3 +13,10 @@ python manage.py sqlmigrate main 0001
 python manage.py shell
 # Создание админской учетки
 python manage.py createsuperuser
+# Сохранить список необходимых пакетов
+pip freeze > requiremints.txt
+
+# Для деплоя
+apt-get update
+apt-get install -y python3-pip
+python3 -m pip install --upgrade pip
